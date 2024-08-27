@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+section h2 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+section p, section img {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 800px;
+}
+
+.photos {
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.photo-container {
+    display: flex;
+    gap: 20px;
+    animation: scroll 10s linear infinite;
+}
+
+.photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.contact-form {
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.partners {
+    text-align: left;
+    margin-left: 20px;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .socials img {
+    width: 30px;
+    margin: 0 10px;
+}
