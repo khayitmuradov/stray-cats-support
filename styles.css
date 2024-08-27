@@ -91,9 +91,11 @@ section p, section img {
     margin: 5px 0;
 }
 
-.partners {
-    text-align: left;
-    margin-left: 20px;
+.partners img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover; /* Ensures the images maintain their aspect ratio without stretching */
+    margin-left: 20px; /* Align with the rest of the content */
 }
 
 aside {
